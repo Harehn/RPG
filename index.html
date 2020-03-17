@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+
+    <title>Story</title>
+
+    <style>.tab {
+
+  overflow: hidden;
+
+  border: 1px solid #ccc;
+
+  background-color: #f1f1f1;
+
+}
+
+
+
+/* Style the buttons that are used to open the tab content */
+
+.tab button {
+
+  background-color: inherit;
+
+  float: left;
+
+  border: none;
+
+  outline: none;
+
+  cursor: pointer;
+
+  padding: 14px 16px;
+
+  transition: 0.3s;
+
+}
+
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+
+  background-color: #ddd;
+
+}
+
+
+
+/* Create an active/current tablink class */
+
+.tab button.active {
+
+  background-color: #ccc;
+
+}
+
+
+
+/* Style the tab content */
+
+.tabcontent {
+
+  display: none;
+
+  padding: 6px 12px;
+
+  border: 1px solid #ccc;
+
+  border-top: none;
+
+}</style>
+
+<script>
+
+function openCity(evt, cityName) {
+
+  // Declare all variables
+
+  var i, tabcontent, tablinks;
+
+
+
+  // Get all elements with class="tabcontent" and hide them
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+
+  for (i = 0; i < tabcontent.length; i++) {
+
+    tabcontent[i].style.display = "none";
+
+  }
+
+
+
+  // Get all elements with class="tablinks" and remove the class "active"
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+  for (i = 0; i < tablinks.length; i++) {
+
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+
+  }
+
+
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+
+  document.getElementById(cityName).style.display = "block";
+
+  evt.currentTarget.className += " active";
+
+
+
+// Get the element with id="defaultOpen" and click on it
+
+//document.getElementById("defaultOpen").click();
+
+}
+
+</script>
+
+  </head>
+
+  <body>
+
+  <!-- Tab links -->
+
+  <div class="tab">
+
+  <button class="tablinks" onclick="openCity(event, 'location')" id="defaultOpen">location</button>
+<button class="tablinks" onclick="openCity(event, 'gods')" >gods</button>
+<button class="tablinks" onclick="openCity(event, 'weapons')" >weapons</button>
+
+  </div>
+
+  <!-- Tab content -->
+
+    <div id=location class="tabcontent"  style="display: block;">
+
+  <h3>location</h3>
+
+  <p>0)<br>
+ name : Manila<br>
+type : populated_areas<br>
+subtype : Village<br>
+size : (2, 'small')<br>
+magic_level : (4, 'dense')<br>
+magic_type : shadow<br>
+ecology : <br>
+subareas : [Forge store]<br>
+name : Forge store<br>
+size : (3, 'average')<br>
+type : stores<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : light<br>
+<br>
+[Den]<br>
+name : Den<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : light<br>
+<br>
+[Merchant guild]<br>
+name : Merchant guild<br>
+size : (4, 'big')<br>
+type : guilds<br>
+magic_level : (0, 'very faint')<br>
+magic_type : light<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+population : <br>
+----------------------------<br>
+1)<br>
+ name : Mexico City<br>
+type : wilderness<br>
+subtype : Forest<br>
+size : (1, 'quite small')<br>
+magic_level : (6, 'very dense')<br>
+magic_type : shadow<br>
+ecology : <br>
+subareas : [Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Altar]<br>
+name : Altar<br>
+size : (1, 'quite small')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+population : <br>
+----------------------------<br>
+2)<br>
+ name : Lima<br>
+type : wilderness<br>
+subtype : Lake<br>
+size : (4, 'big')<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : curse<br>
+ecology : <br>
+subareas : [Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Church]<br>
+name : Church<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (3, 'average')<br>
+magic_type : earth<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Altar]<br>
+name : Altar<br>
+size : (1, 'quite small')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+population : <br>
+----------------------------<br>
+3)<br>
+ name : Mumbai<br>
+type : populated_areas<br>
+subtype : Town<br>
+size : (3, 'average')<br>
+magic_level : (4, 'dense')<br>
+magic_type : water<br>
+ecology : <br>
+subareas : [Warehouse]<br>
+name : Warehouse<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (2, 'faint')<br>
+magic_type : earth<br>
+<br>
+[Magician guild]<br>
+name : Magician guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : neutral<br>
+<br>
+[Cemetery]<br>
+name : Cemetery<br>
+size : (2, 'small')<br>
+type : general<br>
+magic_level : (2, 'faint')<br>
+magic_type : wind<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Merchant guild]<br>
+name : Merchant guild<br>
+size : (4, 'big')<br>
+type : guilds<br>
+magic_level : (0, 'very faint')<br>
+magic_type : light<br>
+population : <br>
+----------------------------<br>
+4)<br>
+ name : Manila<br>
+type : wilderness<br>
+subtype : Lake<br>
+size : (2, 'small')<br>
+magic_level : (3, 'average')<br>
+magic_type : poison<br>
+ecology : <br>
+subareas : [Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+population : <br>
+----------------------------<br>
+5)<br>
+ name : Jakarta<br>
+type : populated_areas<br>
+subtype : Capital<br>
+size : (5, 'quite big')<br>
+magic_level : (6, 'very dense')<br>
+magic_type : shadow<br>
+ecology : <br>
+subareas : [Craftsman guild]<br>
+name : Craftsman guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (4, 'dense')<br>
+magic_type : fire<br>
+<br>
+[Forge store]<br>
+name : Forge store<br>
+size : (3, 'average')<br>
+type : stores<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : light<br>
+<br>
+[Houses]<br>
+name : Houses<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (0, 'very faint')<br>
+magic_type : water<br>
+<br>
+[Museum]<br>
+name : Museum<br>
+size : (6, 'very big')<br>
+type : general<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : wind<br>
+<br>
+[Houses]<br>
+name : Houses<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (0, 'very faint')<br>
+magic_type : water<br>
+<br>
+[Magician guild]<br>
+name : Magician guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : neutral<br>
+<br>
+[Martial arts guild]<br>
+name : Martial arts guild<br>
+size : (3, 'average')<br>
+type : guilds<br>
+magic_level : (2, 'faint')<br>
+magic_type : curse<br>
+<br>
+[Weapon arts guild]<br>
+name : Weapon arts guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (0, 'very faint')<br>
+magic_type : ice<br>
+population : <br>
+----------------------------<br>
+6)<br>
+ name : Tokyo<br>
+type : populated_areas<br>
+subtype : Town<br>
+size : (2, 'small')<br>
+magic_level : (4, 'dense')<br>
+magic_type : curse<br>
+ecology : <br>
+subareas : [Altar]<br>
+name : Altar<br>
+size : (1, 'quite small')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Alchemist store]<br>
+name : Alchemist store<br>
+size : (1, 'quite small')<br>
+type : stores<br>
+magic_level : (4, 'dense')<br>
+magic_type : water<br>
+<br>
+[Church]<br>
+name : Church<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (3, 'average')<br>
+magic_type : earth<br>
+<br>
+[Magician guild]<br>
+name : Magician guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : neutral<br>
+<br>
+[Craftsman guild]<br>
+name : Craftsman guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (4, 'dense')<br>
+magic_type : fire<br>
+population : <br>
+----------------------------<br>
+7)<br>
+ name : Chicago<br>
+type : populated_areas<br>
+subtype : City<br>
+size : (2, 'small')<br>
+magic_level : (6, 'very dense')<br>
+magic_type : lightning<br>
+ecology : <br>
+subareas : [Cemetery]<br>
+name : Cemetery<br>
+size : (2, 'small')<br>
+type : general<br>
+magic_level : (2, 'faint')<br>
+magic_type : wind<br>
+<br>
+[Merchant guild]<br>
+name : Merchant guild<br>
+size : (4, 'big')<br>
+type : guilds<br>
+magic_level : (0, 'very faint')<br>
+magic_type : light<br>
+<br>
+[Church]<br>
+name : Church<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (3, 'average')<br>
+magic_type : earth<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Den]<br>
+name : Den<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : light<br>
+population : <br>
+----------------------------<br>
+8)<br>
+ name : Manila<br>
+type : populated_areas<br>
+subtype : City<br>
+size : (0, 'very small')<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : curse<br>
+ecology : <br>
+subareas : [Weapon arts guild]<br>
+name : Weapon arts guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (0, 'very faint')<br>
+magic_type : ice<br>
+<br>
+[Houses]<br>
+name : Houses<br>
+size : (3, 'average')<br>
+type : general<br>
+magic_level : (0, 'very faint')<br>
+magic_type : water<br>
+<br>
+[Tamer guild]<br>
+name : Tamer guild<br>
+size : (6, 'very big')<br>
+type : guilds<br>
+magic_level : (3, 'average')<br>
+magic_type : shadow<br>
+population : <br>
+----------------------------<br>
+9)<br>
+ name : Karachi<br>
+type : wilderness<br>
+subtype : Sea<br>
+size : (5, 'quite big')<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : shadow<br>
+ecology : <br>
+subareas : [Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+<br>
+[Church]<br>
+name : Church<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (3, 'average')<br>
+magic_type : earth<br>
+<br>
+[Temple]<br>
+name : Temple<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (1, 'quite faint')<br>
+magic_type : earth<br>
+<br>
+[Altar]<br>
+name : Altar<br>
+size : (1, 'quite small')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Altar]<br>
+name : Altar<br>
+size : (1, 'quite small')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Church]<br>
+name : Church<br>
+size : (3, 'average')<br>
+type : place of worship<br>
+magic_level : (3, 'average')<br>
+magic_type : earth<br>
+<br>
+[Holy grounds]<br>
+name : Holy grounds<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (5, 'quite dense')<br>
+magic_type : wind<br>
+<br>
+[Shrine]<br>
+name : Shrine<br>
+size : (5, 'quite big')<br>
+type : place of worship<br>
+magic_level : (2, 'faint')<br>
+magic_type : darkness<br>
+population : <br>
+----------------------------<br>
+</p>
+
+</div>
+<div id=gods class="tabcontent" >
+
+  <h3>gods</h3>
+
+  <p>0)<br>
+ title : ['God of dogs', 'The Great Dog God', 'Lord of dogs', 'The Great Dog Lord', 'The One who governs over dogs', 'The One who presides over dogs']<br>
+gender : ('male', 0)<br>
+power_level : (0, 'very weak')<br>
+disappeared : True<br>
+cruelty : (5, 'quite cruel')<br>
+following : (3, 'average')<br>
+interference : (0, 'very rarely')<br>
+favourite_color : Teal<br>
+belief : (0, 'monotheist')<br>
+elements : ['light', 'wind']<br>
+weapons : Teal Halberd of light<br>
+opponents : [god.AnimalGod object at 0x03459508, god.AnimalGod object at 0x034598B0, god.AnimalGod object at 0x034597C0]<br>
+opponents_titles : ['God of flies', 'God of frogs', 'God of pigs']<br>
+allies : [god.AnimalGod object at 0x0329C058, god.AnimalGod object at 0x0329C058, god.AnimalGod object at 0x0329C070, god.AnimalGod object at 0x034594D8, god.AnimalGod object at 0x03459850]<br>
+allies_titles : ['God of dogs', 'God of dogs', 'God of sharks', 'God of tigers', 'God of fishes']<br>
+factions : 1<br>
+animal : dog<br>
+<br>
+1)<br>
+ title : ['God of sharks', 'The Great Shark God', 'Lord of sharks', 'The Great Shark Lord', 'The One who governs over sharks', 'The One who presides over sharks']<br>
+gender : ('female', 1)<br>
+power_level : (6, 'very strong')<br>
+cruelty : (3, 'average')<br>
+following : (5, 'quite large')<br>
+interference : (6, 'very Often')<br>
+favourite_color : Yellow<br>
+belief : (0, 'monotheist')<br>
+elements : ['shadow']<br>
+weapons : Yellow Sword of shadow<br>
+allies : [god.AnimalGod object at 0x0329C058]<br>
+allies_titles : ['God of dogs']<br>
+factions : 1<br>
+animal : shark<br>
+<br>
+2)<br>
+ title : ['God of tigers', 'The Great Tiger God', 'Lord of tigers', 'The Great Tiger Lord', 'The One who governs over tigers', 'The One who presides over tigers']<br>
+gender : ('female', 1)<br>
+power_level : (5, 'quite strong')<br>
+disappeared : True<br>
+cruelty : (1, 'quite kind')<br>
+following : (0, 'very small')<br>
+interference : (2, 'rarely')<br>
+favourite_color : Gray<br>
+belief : (0, 'monotheist')<br>
+elements : ['blood', 'water']<br>
+weapons : Gray Flail of blood<br>
+allies : [god.AnimalGod object at 0x0329C058]<br>
+allies_titles : ['God of dogs']<br>
+factions : 1<br>
+animal : tiger<br>
+<br>
+3)<br>
+ title : ['God of flies', 'The Great Fly God', 'Lord of flies', 'The Great Fly Lord', 'The One who governs over flies', 'The One who presides over flies']<br>
+gender : ('male', 0)<br>
+power_level : (1, 'quite weak')<br>
+cruelty : (1, 'quite kind')<br>
+following : (6, 'very large')<br>
+interference : (3, 'average')<br>
+favourite_color : Brown<br>
+belief : (0, 'monotheist')<br>
+elements : ['psychic', 'shadow', 'fire']<br>
+weapons : Brown Batons of fire<br>
+opponents : [god.AnimalGod object at 0x0329C058]<br>
+opponents_titles : ['God of dogs']<br>
+factions : 2<br>
+animal : fly<br>
+<br>
+4)<br>
+ title : ['God of frogs', 'The Great Frog God', 'Lord of frogs', 'The Great Frog Lord', 'The One who governs over frogs', 'The One who presides over frogs']<br>
+gender : ('female', 1)<br>
+power_level : (0, 'very weak')<br>
+cruelty : (3, 'average')<br>
+following : (0, 'very small')<br>
+interference : (2, 'rarely')<br>
+favourite_color : Turquoise<br>
+belief : (0, 'monotheist')<br>
+elements : ['ice']<br>
+weapons : Turquoise Batons of ice<br>
+opponents : [god.AnimalGod object at 0x0329C058]<br>
+opponents_titles : ['God of dogs']<br>
+factions : 2<br>
+animal : frog<br>
+<br>
+5)<br>
+ title : ['God of pigs', 'The Great Pig God', 'Lord of pigs', 'The Great Pig Lord', 'The One who governs over pigs', 'The One who presides over pigs']<br>
+gender : ('male', 0)<br>
+power_level : (6, 'very strong')<br>
+disappeared : True<br>
+cruelty : (6, 'very cruel')<br>
+following : (4, 'large')<br>
+interference : (1, 'quite rarely')<br>
+favourite_color : Pink<br>
+belief : (0, 'monotheist')<br>
+elements : ['earth', 'curse']<br>
+weapons : Pink Batons of curse<br>
+opponents : [god.AnimalGod object at 0x0329C058]<br>
+opponents_titles : ['God of dogs']<br>
+factions : 2<br>
+animal : pig<br>
+<br>
+6)<br>
+ title : ['God of fishes', 'The Great Fish God', 'Lord of fishes', 'The Great Fish Lord', 'The One who governs over fishes', 'The One who presides over fishes']<br>
+gender : ('female', 1)<br>
+power_level : (5, 'quite strong')<br>
+cruelty : (3, 'average')<br>
+following : (6, 'very large')<br>
+interference : (3, 'average')<br>
+favourite_color : Magenta<br>
+belief : (0, 'monotheist')<br>
+elements : ['ice', 'poison', 'psychic']<br>
+weapons : Magenta Spear of poison<br>
+allies : [god.AnimalGod object at 0x0329C058]<br>
+allies_titles : ['God of dogs']<br>
+factions : 1<br>
+animal : fish<br>
+<br>
+7)<br>
+ title : ['God of zebras', 'The Great Zebra God', 'Lord of zebras', 'The Great Zebra Lord', 'The One who governs over zebras', 'The One who presides over zebras']<br>
+gender : ('genderless', 2)<br>
+power_level : (5, 'quite strong')<br>
+cruelty : (2, 'kind')<br>
+following : (3, 'average')<br>
+interference : (3, 'average')<br>
+favourite_color : Olive<br>
+belief : (1, 'polytheist')<br>
+elements : ['blood', 'poison']<br>
+weapons : Olive Halberd of blood<br>
+animal : zebra</p>
+
+</div>
+<div id=weapons class="tabcontent" >
+
+  <h3>weapons</h3>
+
+  <p>0)<br>
+ [Common Gray Halberd of darkness]<br>
+A Common Halberd. It has inside of it the power of  darkness. It can deal and mitigate elemental damage of darkness. It also contains a blessing<br>
+[strong blessing of divine]<br>
+Given by divine<br>
+Allows you to use some mana to send a ball of divine<br>
+<br>
+1)<br>
+ [Uncommon Cyan Falchion Sword of lightning]<br>
+A Uncommon Falchion Sword. It is imbued with lightning. It can deal and mitigate elemental damage of lightning. It also contains a blessing<br>
+[strong blessing of divine]<br>
+Given by divine<br>
+You can use this blessing to increase another blessing of divine<br>
+<br>
+2)<br>
+ [Uncommon Blue Longbow of water]<br>
+A Uncommon Longbow. It is imbued with the element of  water. It can deal and mitigate elemental damage of water. It also contains a blessing<br>
+[strong blessing of blood]<br>
+Given by blood<br>
+Decreases the use of mana when using the element of blood<br>
+<br>
+3)<br>
+ [Common Violet Mace of wind]<br>
+A Common Mace. It has inside of it the power of  wind. It can deal and mitigate elemental damage of wind. It also contains a blessing<br>
+[strong blessing of light]<br>
+Given by light<br>
+Allows you to use some mana to send a ball of light<br>
+<br>
+4)<br>
+ [Common Violet Longsword of nature]<br>
+A Common Longsword. It is imbued with nature. It can deal and mitigate elemental damage of nature. It also contains a blessing<br>
+[strong blessing of light]<br>
+Given by light<br>
+Increases your resistance to light<br>
+<br>
+5)<br>
+ [Epic Cyan Scimitar of earth]<br>
+A Epic Scimitar. It has inside of it the power of  earth. It can deal and mitigate elemental damage of earth. It also contains a blessing<br>
+[strong blessing of shadow]<br>
+Given by shadow<br>
+Increases your resistance to shadow<br>
+<br>
+6)<br>
+ [Mythic Indigo Batons of darkness]<br>
+A Mythic Batons. One can sense in it the aura of the power of  darkness. It can deal and mitigate elemental damage of darkness. It also contains a blessing<br>
+[strong blessing of nature]<br>
+Given by nature<br>
+Increases the attack power of nature<br>
+<br>
+7)<br>
+ [Mythic Turquoise Halberd of wind]<br>
+A Mythic Halberd. It has inside of it wind. It can deal and mitigate elemental damage of wind. It also contains a blessing<br>
+[strong blessing of shadow]<br>
+Given by shadow<br>
+Grants you an aura of shadow<br>
+<br>
+8)<br>
+ [Divine Lime Flail of nature]<br>
+A Divine Flail. It is imbued with the power of  nature. It can deal and mitigate elemental damage of nature. It also contains a blessing<br>
+[strong blessing of curse]<br>
+Given by curse<br>
+You can now cast faster spells of curse<br>
+<br>
+9)<br>
+ [Rare Magenta Greatsword of divine]<br>
+A Rare Greatsword. One can sense in it the aura of the power of  divine. It can deal and mitigate elemental damage of divine. It also contains a blessing<br>
+[strong blessing of divine]<br>
+Given by divine<br>
+Makes your scent more favourable to spirits of divine<br>
+<br>
+10)<br>
+ [Legendary Magenta Lance of poison]<br>
+A Legendary Lance. It emits the faint aura of poison. It can deal and mitigate elemental damage of poison. It also contains a blessing<br>
+[strong blessing of lightning]<br>
+Given by lightning<br>
+Occasionally leads you to sources of power of lightning<br>
+<br>
+11)<br>
+ [Epic Yellow Greatsword of blood]<br>
+A Epic Greatsword. It is enchanted with the element of  blood. It can deal and mitigate elemental damage of blood. It also contains a blessing<br>
+[strong blessing of earth]<br>
+Given by earth<br>
+Increases your resistance to earth<br>
+<br>
+12)<br>
+ [Common Pink Batons of darkness]<br>
+A Common Batons. It contains the power of  darkness. It can deal and mitigate elemental damage of darkness. It also contains a blessing<br>
+[strong blessing of earth]<br>
+Given by earth<br>
+You can now cast faster spells of earth<br>
+<br>
+13)<br>
+ [Common Olive Lance of ice]<br>
+A Common Lance. It has inside of it the power of  ice. It can deal and mitigate elemental damage of ice. It also contains a blessing<br>
+[strong blessing of earth]<br>
+Given by earth<br>
+Makes your scent more favourable to spirits of earth<br>
+<br>
+14)<br>
+ [Rare Red Warhammer of nature]<br>
+A Rare Warhammer. One can sense in it the aura of the element of  nature. It can deal and mitigate elemental damage of nature. It also contains a blessing<br>
+[strong blessing of divine]<br>
+Given by divine<br>
+Grants you an aura of divine<br>
+<br>
+15)<br>
+ [Common Aquamarine Halberd of water]<br>
+A Common Halberd. It is enchanted with the element of  water. It can deal and mitigate elemental damage of water. It also contains a blessing<br>
+[strong blessing of light]<br>
+Given by light<br>
+Increases the attack power of light<br>
+<br>
+16)<br>
+ [Broken Yellow Mace of shadow]<br>
+A Broken Mace. It is enchanted with the power of  shadow. It can deal and mitigate elemental damage of shadow. It also contains a blessing<br>
+[strong blessing of curse]<br>
+Given by curse<br>
+You can use this blessing to increase another blessing of curse<br>
+<br>
+17)<br>
+ [Epic Tan Falchion Sword of shadow]<br>
+A Epic Falchion Sword. It contains shadow. It can deal and mitigate elemental damage of shadow. It also contains a blessing<br>
+[strong blessing of psychic]<br>
+Given by psychic<br>
+Occasionally leads you to sources of power of psychic<br>
+<br>
+18)<br>
+ [Mythic Blue Sword of ice]<br>
+A Mythic Sword. It has been bestowed the aura of ice. It can deal and mitigate elemental damage of ice. It also contains a blessing<br>
+[strong blessing of blood]<br>
+Given by blood<br>
+Decreases the use of mana when using the element of blood<br>
+<br>
+19)<br>
+ [Divine Brown Sword]<br>
+A Divine Sword. It also contains a blessing<br>
+[strong blessing of lightning]<br>
+Given by lightning<br>
+Makes your scent more favourable to spirits of lightning<br>
+<br>
+</p>
+
+</div>
+
+  </body>
+
+</html>
