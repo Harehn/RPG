@@ -1,0 +1,444 @@
+name : Tehran
+type : wilderness
+subtype : Forest
+size : (5, 'quite big')
+magic_level : (6, 'very dense')
+magic_type : lightning
+ecology : 
+subareas : [Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Shrine]
+name : Shrine
+size : (6, 'very big')
+type : place of worship
+magic_level : (2, 'faint')
+magic_type : shadow
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+population : 
+----------------------------
+name : São Paulo
+type : wilderness
+subtype : Forest
+size : (6, 'very big')
+magic_level : (0, 'very faint')
+magic_type : psychic
+ecology : 
+subareas : [Church]
+name : Church
+size : (0, 'very small')
+type : place of worship
+magic_level : (5, 'quite dense')
+magic_type : wind
+
+[Shrine]
+name : Shrine
+size : (6, 'very big')
+type : place of worship
+magic_level : (2, 'faint')
+magic_type : shadow
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Shrine]
+name : Shrine
+size : (6, 'very big')
+type : place of worship
+magic_level : (2, 'faint')
+magic_type : shadow
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Church]
+name : Church
+size : (0, 'very small')
+type : place of worship
+magic_level : (5, 'quite dense')
+magic_type : wind
+
+[Church]
+name : Church
+size : (0, 'very small')
+type : place of worship
+magic_level : (5, 'quite dense')
+magic_type : wind
+population : 
+----------------------------
+name : Jakarta
+type : populated_areas
+subtype : City
+size : (2, 'small')
+magic_level : (1, 'quite faint')
+magic_type : nature
+ecology : 
+subareas : [Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Priest guild]
+name : Priest guild
+size : (1, 'quite small')
+type : guilds
+magic_level : (5, 'quite dense')
+magic_type : poison
+
+[Tamer guild]
+name : Tamer guild
+size : (4, 'big')
+type : guilds
+magic_level : (0, 'very faint')
+magic_type : shadow
+
+[Church]
+name : Church
+size : (0, 'very small')
+type : place of worship
+magic_level : (5, 'quite dense')
+magic_type : wind
+
+[Elementalist guild]
+name : Elementalist guild
+size : (2, 'small')
+type : guilds
+magic_level : (4, 'dense')
+magic_type : blood
+population : 
+----------------------------
+name : Moscow
+type : populated_areas
+subtype : Village
+size : (1, 'quite small')
+magic_level : (1, 'quite faint')
+magic_type : nature
+ecology : 
+subareas : [Sewers]
+name : Sewers
+size : (3, 'average')
+type : general
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Merchant guild]
+name : Merchant guild
+size : (5, 'quite big')
+type : guilds
+magic_level : (3, 'average')
+magic_type : nature
+
+[Marketplace]
+name : Marketplace
+size : (6, 'very big')
+type : general
+magic_level : (4, 'dense')
+magic_type : lightning
+
+[Park]
+name : Park
+size : (5, 'quite big')
+type : general
+magic_level : (4, 'dense')
+magic_type : poison
+population : 
+----------------------------
+name : Shanghai
+type : wilderness
+subtype : Illusory place
+size : (1, 'quite small')
+magic_level : (0, 'very faint')
+magic_type : fire
+ecology : 
+subareas : [Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Church]
+name : Church
+size : (0, 'very small')
+type : place of worship
+magic_level : (5, 'quite dense')
+magic_type : wind
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+population : 
+----------------------------
+name : Tokyo
+type : populated_areas
+subtype : Frontier village
+size : (3, 'average')
+magic_level : (3, 'average')
+magic_type : darkness
+ecology : 
+subareas : [Merchant store]
+name : Merchant store
+size : (2, 'small')
+type : stores
+magic_level : (2, 'faint')
+magic_type : wind
+
+[Craftsman guild]
+name : Craftsman guild
+size : (4, 'big')
+type : guilds
+magic_level : (0, 'very faint')
+magic_type : light
+
+[Merchant guild]
+name : Merchant guild
+size : (5, 'quite big')
+type : guilds
+magic_level : (3, 'average')
+magic_type : nature
+
+[Merchant store]
+name : Merchant store
+size : (2, 'small')
+type : stores
+magic_level : (2, 'faint')
+magic_type : wind
+
+[weapon store]
+name : weapon store
+size : (6, 'very big')
+type : stores
+magic_level : (1, 'quite faint')
+magic_type : shadow
+
+[Alchemist guild]
+name : Alchemist guild
+size : (4, 'big')
+type : guilds
+magic_level : (3, 'average')
+magic_type : lightning
+population : 
+----------------------------
+name : Istanbul
+type : populated_areas
+subtype : Frontier village
+size : (0, 'very small')
+magic_level : (6, 'very dense')
+magic_type : light
+ecology : 
+subareas : [Martial arts guild]
+name : Martial arts guild
+size : (3, 'average')
+type : guilds
+magic_level : (2, 'faint')
+magic_type : earth
+
+[Cemetery]
+name : Cemetery
+size : (5, 'quite big')
+type : general
+magic_level : (2, 'faint')
+magic_type : poison
+
+[Merchant store]
+name : Merchant store
+size : (2, 'small')
+type : stores
+magic_level : (2, 'faint')
+magic_type : wind
+population : 
+----------------------------
+name : Cairo
+type : wilderness
+subtype : Forest
+size : (2, 'small')
+magic_level : (6, 'very dense')
+magic_type : fire
+ecology : 
+subareas : [Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Shrine]
+name : Shrine
+size : (6, 'very big')
+type : place of worship
+magic_level : (2, 'faint')
+magic_type : shadow
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Altar]
+name : Altar
+size : (3, 'average')
+type : place of worship
+magic_level : (1, 'quite faint')
+magic_type : psychic
+
+[Temple]
+name : Temple
+size : (0, 'very small')
+type : place of worship
+magic_level : (6, 'very dense')
+magic_type : nature
+population : 
+----------------------------
+name : Tehran
+type : populated_areas
+subtype : Frontier village
+size : (2, 'small')
+magic_level : (5, 'quite dense')
+magic_type : light
+ecology : 
+subareas : [Sewers]
+name : Sewers
+size : (3, 'average')
+type : general
+magic_level : (6, 'very dense')
+magic_type : nature
+
+[Priest guild]
+name : Priest guild
+size : (1, 'quite small')
+type : guilds
+magic_level : (5, 'quite dense')
+magic_type : poison
+
+[Den]
+name : Den
+size : (3, 'average')
+type : general
+magic_level : (6, 'very dense')
+magic_type : shadow
+
+[Houses]
+name : Houses
+size : (5, 'quite big')
+type : general
+magic_level : (4, 'dense')
+magic_type : ice
+
+[Warehouse]
+name : Warehouse
+size : (6, 'very big')
+type : general
+magic_level : (5, 'quite dense')
+magic_type : darkness
+population : 
+----------------------------
+name : Buenos Aires
+type : populated_areas
+subtype : Capital
+size : (0, 'very small')
+magic_level : (3, 'average')
+magic_type : blood
+ecology : 
+subareas : [Swordsman guild]
+name : Swordsman guild
+size : (1, 'quite small')
+type : guilds
+magic_level : (1, 'quite faint')
+magic_type : darkness
+
+[Marketplace]
+name : Marketplace
+size : (6, 'very big')
+type : general
+magic_level : (4, 'dense')
+magic_type : lightning
+
+[Alchemist store]
+name : Alchemist store
+size : (6, 'very big')
+type : stores
+magic_level : (4, 'dense')
+magic_type : poison
+population : 
+----------------------------

@@ -1,0 +1,64 @@
+Refer to .... for formatting rules
+#populated_areas
+Frontier village
+Village
+Town
+City
+Capital
+#wilderness
+Forest
+Sea
+Lake
+River
+Mountain
+Illusory place
+#subareas_for_populated_areas
+Sewers
+Houses
+Marketplace
+Park
+Cemetery
+Museum
+Warehouse
+Den
+#subareas_for_wilderness_areas
+#stores
+Alchemist
+Forge
+Merchant
+weapon
+#place_of_worship
+Temple
+Altar
+Holy grounds
+Church
+Shrine
+#names
+Tokyo
+New York
+Mexico City
+Mumbai
+São Paulo
+Delhi
+Shanghai
+Kolkata
+Los Angeles
+Dhaka
+Buenos Aires
+Karachi
+Cairo
+Rio de Janeiro
+Ōsaka
+Beijing
+Manila
+Moscow
+Istanbul
+Paris
+Seoul
+Lagos
+Jakarta
+Guangzhou
+Chicago
+London
+Lima
+Tehran

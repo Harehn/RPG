@@ -1,0 +1,1 @@
+<button class="tablinks" onclick="openCity(event, '%n')" %id>%n</button>

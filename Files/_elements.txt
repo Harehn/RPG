@@ -1,0 +1,39 @@
+Refer to .... for formatting rules
+#elements
+fire
+wind
+water
+ice
+earth
+darkness
+light
+blood
+lightning
+nature
+poison
+psychic
+curse
+divine
+shadow
+#effects
+Increases the attack power of
+Grants you an aura of
+Increases your resistance to
+Decreases the damage gained from
+Decreases the use of mana when using the element of
+Makes your scent more favourable to spirits of
+Allows you to use some mana to send a ball of
+Allows you to use some mana to send an arrow of
+Allows you to use some mana to create a sword of
+You can now cast faster spells of
+Occasionally leads you to sources of power of
+You can use this blessing to increase another blessing of
+#I_have_the_power
+It is imbued with
+It contains
+It has inside of it
+It has
+It is enchanted with
+It emits the faint aura of
+It has been bestowed the aura of
+One can sense in it the aura of

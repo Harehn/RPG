@@ -1,0 +1,12 @@
+Refer to .... for formatting rules
+#types
+Magician
+Martial arts
+Priest
+Tamer
+Swordsman
+Weapon arts
+Alchemist
+Craftsman
+Elementalist
+Merchant

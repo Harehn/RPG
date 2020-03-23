@@ -1,0 +1,10 @@
+Refer to .... for formatting rules
+#grades
+Broken
+Common
+Uncommon
+Rare
+Epic
+Mythic
+Legendary
+Divine

@@ -1,0 +1,20 @@
+Refer to .... for formatting rules
+#weapons
+Batons
+Battle axe
+Caltrops
+Crossbow
+Daggers
+Falchion Sword
+Flail
+Greatsword
+Halberd
+Lance
+Longbow
+Longsword
+Mace
+MorningStar
+Scimitar
+Spear
+Sword
+Warhammer

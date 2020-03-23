@@ -1,0 +1,4 @@
+<div id=%n class="tabcontent" %i>
+  <h3>%n</h3>
+  <div>%c</div>
+</div>

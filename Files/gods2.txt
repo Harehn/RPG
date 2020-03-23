@@ -1,0 +1,161 @@
+title : ['God of snails', 'The Great Snail God', 'Lord of snails', 'The Great Snail Lord', 'The One who governs over snails', 'The One who presides over snails']
+gender : ('female', 1)
+power_level : (2, 'weak')
+cruelty : (6, 'very cruel')
+following : (4, 'large')
+interference : (1, 'quite rarely')
+favourite_color : Brown
+belief : (0, 'monotheist')
+elements : ['fire']
+weapons : ('Brown', 'Flail', 'fire')
+animal : snail
+
+title : ['God of wolfs', 'The Great Wolf God', 'Lord of wolfs', 'The Great Wolf Lord', 'The One who governs over wolfs', 'The One who presides over wolfs']
+gender : ('genderless', 2)
+power_level : (5, ' quite strong')
+disappeared : True
+cruelty : (4, 'cruel')
+following : (5, ' quite large')
+interference : (0, 'very rarely')
+favourite_color : Cyan
+belief : (1, 'polytheist')
+elements : ['wind']
+weapons : ('Cyan', 'Warhammer', 'wind')
+opponents : [<god.AnimalGod object at 0x012322B0>]
+opponents_titles : ['God of spiders']
+animal : wolf
+
+title : ['God of squirrels', 'The Great Squirrel God', 'Lord of squirrels', 'The Great Squirrel Lord', 'The One who governs over squirrels', 'The One who presides over squirrels']
+gender : ('female', 1)
+power_level : (0, 'very weak')
+disappeared : True
+cruelty : (1, 'quite kind')
+following : (5, ' quite large')
+interference : (5, ' quite Often')
+favourite_color : Brown
+belief : (1, 'polytheist')
+elements : ['psychic', 'fire', 'poison']
+weapons : ('Brown', 'Warhammer', 'fire')
+animal : squirrel
+
+title : ['God of scorpions', 'The Great Scorpion God', 'Lord of scorpions', 'The Great Scorpion Lord', 'The One who governs over scorpions', 'The One who presides over scorpions']
+gender : ('female', 1)
+power_level : (3, 'average')
+disappeared : True
+cruelty : (3, 'average')
+following : (4, 'large')
+interference : (2, 'rarely')
+favourite_color : Maroon
+belief : (0, 'monotheist')
+elements : ['earth', 'darkness', 'psychic']
+weapons : ('Maroon', 'Falchion Sword', 'darkness')
+animal : scorpion
+
+title : ['God of spiders', 'The Great Spider God', 'Lord of spiders', 'The Great Spider Lord', 'The One who governs over spiders', 'The One who presides over spiders']
+gender : ('male', 0)
+power_level : (0, 'very weak')
+cruelty : (1, 'quite kind')
+following : (6, 'very large')
+interference : (3, 'average')
+favourite_color : Blue
+belief : (1, 'polytheist')
+elements : ['nature']
+weapons : ('Blue', 'Flail', 'nature')
+opponents : [<god.AnimalGod object at 0x00BC00F0>]
+opponents_titles : ['God of wolfs']
+animal : spider
+
+title : ['God of giraffes', 'The Great Giraffe God', 'Lord of giraffes', 'The Great Giraffe Lord', 'The One who governs over giraffes', 'The One who presides over giraffes']
+gender : ('genderless', 2)
+power_level : (3, 'average')
+disappeared : True
+cruelty : (3, 'average')
+following : (6, 'very large')
+interference : (5, ' quite Often')
+favourite_color : Gray
+belief : (0, 'monotheist')
+elements : ['blood']
+weapons : ('Gray', 'Halberd', 'blood')
+allies : [<god.AnimalGod object at 0x01232310>]
+allies_titles : ['God of pandas']
+animal : giraffe
+
+title : ['God of pandas', 'The Great Panda God', 'Lord of pandas', 'The Great Panda Lord', 'The One who governs over pandas', 'The One who presides over pandas']
+gender : ('female', 1)
+power_level : (0, 'very weak')
+cruelty : (4, 'cruel')
+following : (0, 'very small')
+interference : (6, 'very Often')
+favourite_color : Green
+belief : (0, 'monotheist')
+elements : ['wind', 'ice', 'earth']
+weapons : ('Green', 'Warhammer', 'wind')
+opponents : [<god.AnimalGod object at 0x01232390>]
+opponents_titles : ['God of cheetahes']
+allies : [<god.AnimalGod object at 0x012322F0>]
+allies_titles : ['God of giraffes']
+animal : panda
+
+title : ['God of chickens', 'The Great Chicken God', 'Lord of chickens', 'The Great Chicken Lord', 'The One who governs over chickens', 'The One who presides over chickens']
+gender : ('female', 1)
+power_level : (5, ' quite strong')
+cruelty : (5, ' quite cruel')
+following : (4, 'large')
+interference : (3, 'average')
+favourite_color : Aquamarine
+belief : (0, 'monotheist')
+elements : ['water', 'poison']
+weapons : ('Aquamarine', 'Lance', 'poison')
+animal : chicken
+
+title : ['God of sheeps', 'The Great Sheep God', 'Lord of sheeps', 'The Great Sheep Lord', 'The One who governs over sheeps', 'The One who presides over sheeps']
+gender : ('genderless', 2)
+power_level : (6, 'very strong')
+disappeared : True
+cruelty : (2, 'kind')
+following : (0, 'very small')
+interference : (3, 'average')
+favourite_color : Teal
+belief : (0, 'monotheist')
+elements : ['water', 'nature']
+weapons : ('Teal', 'Caltrops', 'nature')
+animal : sheep
+
+title : ['God of kittens', 'The Great Kitten God', 'Lord of kittens', 'The Great Kitten Lord', 'The One who governs over kittens', 'The One who presides over kittens']
+gender : ('female', 1)
+power_level : (3, 'average')
+cruelty : (2, 'kind')
+following : (4, 'large')
+interference : (1, 'quite rarely')
+favourite_color : Red
+belief : (0, 'monotheist')
+elements : ['psychic', 'lightning', 'blood']
+weapons : ('Red', 'Warhammer', 'psychic')
+animal : kitten
+
+title : ['God of goldfishes', 'The Great Goldfish God', 'Lord of goldfishes', 'The Great Goldfish Lord', 'The One who governs over goldfishes', 'The One who presides over goldfishes']
+gender : ('genderless', 2)
+power_level : (2, 'weak')
+disappeared : True
+cruelty : (6, 'very cruel')
+following : (2, 'small')
+interference : (2, 'rarely')
+favourite_color : Magenta
+belief : (0, 'monotheist')
+elements : ['divine', 'darkness']
+weapons : ('Magenta', 'MorningStar', 'darkness')
+animal : goldfish
+
+title : ['God of cheetahes', 'The Great Cheetah God', 'Lord of cheetahes', 'The Great Cheetah Lord', 'The One who governs over cheetahes', 'The One who presides over cheetahes']
+gender : ('male', 0)
+power_level : (0, 'very weak')
+cruelty : (5, ' quite cruel')
+following : (3, 'average')
+interference : (4, 'Often')
+favourite_color : Blue
+belief : (1, 'polytheist')
+elements : ['wind']
+weapons : ('Blue', 'Mace', 'wind')
+opponents : [<god.AnimalGod object at 0x01232310>]
+opponents_titles : ['God of pandas']
+animal : cheetah

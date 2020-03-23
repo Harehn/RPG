@@ -1,0 +1,251 @@
+title : ['God of kangaroos', 'The Great Kangaroo God', 'Lord of kangaroos', 'The Great Kangaroo Lord', 'The One who governs over kangaroos', 'The One who presides over kangaroos']
+gender : ('female', 1)
+power_level : (3, 'average')
+disappeared : True
+cruelty : (3, 'average')
+following : (6, 'very large')
+interference : (3, 'average')
+favourite_color : Orange
+belief : (1, 'polytheist')
+elements : ['curse', 'darkness', 'poison']
+weapons : Orange Greatsword of poison
+opponents : [<__main__.AnimalGod object at 0x00F8FAD0>, <__main__.AnimalGod object at 0x00F8FAD0>, <__main__.AnimalGod object at 0x02DBF390>, <__main__.AnimalGod object at 0x02DBF5D0>, <__main__.AnimalGod object at 0x02DBF650>]
+opponents_titles : ['God of kangaroos', 'God of kangaroos', 'God of lobsters', 'God of fishes', 'God of elephants']
+allies : [<__main__.AnimalGod object at 0x02DBF2D0>, <__main__.AnimalGod object at 0x02DBF2B0>, <__main__.AnimalGod object at 0x02DBF3D0>, <__main__.AnimalGod object at 0x02DBF590>, <__main__.AnimalGod object at 0x02DBF610>, <__main__.AnimalGod object at 0x02DBF570>, <__main__.AnimalGod object at 0x02DBF6B0>]
+allies_titles : ['God of hamsters', 'God of snakes', 'God of bears', 'God of owls', 'God of rabbits', 'God of hippopotamuses', 'God of horses']
+factions : 2
+symbol : 
+champions : []
+rituals : []
+animal : kangaroo
+
+title : ['God of hamsters', 'The Great Hamster God', 'Lord of hamsters', 'The Great Hamster Lord', 'The One who governs over hamsters', 'The One who presides over hamsters']
+gender : ('male', 0)
+power_level : (4, 'strong')
+disappeared : False
+cruelty : (3, 'average')
+following : (2, 'small')
+interference : (0, 'very rarely')
+favourite_color : Gray
+belief : (0, 'monotheist')
+elements : ['psychic']
+weapons : Gray Warhammer of psychic
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : hamster
+
+title : ['God of lobsters', 'The Great Lobster God', 'Lord of lobsters', 'The Great Lobster Lord', 'The One who governs over lobsters', 'The One who presides over lobsters']
+gender : ('female', 1)
+power_level : (0, 'very weak')
+disappeared : True
+cruelty : (2, 'kind')
+following : (6, 'very large')
+interference : (4, 'Often')
+favourite_color : White
+belief : (0, 'monotheist')
+elements : ['fire', 'lightning', 'nature']
+weapons : White Caltrops of fire
+opponents : [<__main__.AnimalGod object at 0x00F8FAD0>]
+opponents_titles : ['God of kangaroos']
+allies : []
+allies_titles : []
+factions : 2
+symbol : 
+champions : []
+rituals : []
+animal : lobster
+
+title : ['God of snakes', 'The Great Snake God', 'Lord of snakes', 'The Great Snake Lord', 'The One who governs over snakes', 'The One who presides over snakes']
+gender : ('female', 1)
+power_level : (4, 'strong')
+disappeared : True
+cruelty : (0, 'very kind')
+following : (6, 'very large')
+interference : (6, 'very Often')
+favourite_color : Red
+belief : (1, 'polytheist')
+elements : ['poison', 'shadow']
+weapons : Red Lance of shadow
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : snake
+
+title : ['God of bears', 'The Great Bear God', 'Lord of bears', 'The Great Bear Lord', 'The One who governs over bears', 'The One who presides over bears']
+gender : ('female', 1)
+power_level : (5, 'quite strong')
+disappeared : True
+cruelty : (4, 'cruel')
+following : (5, 'quite large')
+interference : (2, 'rarely')
+favourite_color : Indigo
+belief : (0, 'monotheist')
+elements : ['shadow']
+weapons : Indigo Batons of shadow
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : bear
+
+title : ['God of owls', 'The Great Owl God', 'Lord of owls', 'The Great Owl Lord', 'The One who governs over owls', 'The One who presides over owls']
+gender : ('female', 1)
+power_level : (0, 'very weak')
+disappeared : False
+cruelty : (4, 'cruel')
+following : (3, 'average')
+interference : (0, 'very rarely')
+favourite_color : Navy
+belief : (1, 'polytheist')
+elements : ['earth']
+weapons : Navy Falchion Sword of earth
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : owl
+
+title : ['God of fishes', 'The Great Fish God', 'Lord of fishes', 'The Great Fish Lord', 'The One who governs over fishes', 'The One who presides over fishes']
+gender : ('genderless', 2)
+power_level : (2, 'weak')
+disappeared : True
+cruelty : (1, 'quite kind')
+following : (1, 'quite small')
+interference : (0, 'very rarely')
+favourite_color : Magenta
+belief : (1, 'polytheist')
+elements : ['light', 'psychic', 'divine']
+weapons : Magenta Flail of psychic
+opponents : [<__main__.AnimalGod object at 0x00F8FAD0>]
+opponents_titles : ['God of kangaroos']
+allies : []
+allies_titles : []
+factions : 2
+symbol : 
+champions : []
+rituals : []
+animal : fish
+
+title : ['God of rabbits', 'The Great Rabbit God', 'Lord of rabbits', 'The Great Rabbit Lord', 'The One who governs over rabbits', 'The One who presides over rabbits']
+gender : ('female', 1)
+power_level : (3, 'average')
+disappeared : True
+cruelty : (4, 'cruel')
+following : (3, 'average')
+interference : (2, 'rarely')
+favourite_color : Grey
+belief : (1, 'polytheist')
+elements : ['ice', 'water', 'blood']
+weapons : Grey Flail of water
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : rabbit
+
+title : ['God of elephants', 'The Great Elephant God', 'Lord of elephants', 'The Great Elephant Lord', 'The One who governs over elephants', 'The One who presides over elephants']
+gender : ('male', 0)
+power_level : (6, 'very strong')
+disappeared : True
+cruelty : (4, 'cruel')
+following : (3, 'average')
+interference : (3, 'average')
+favourite_color : Magenta
+belief : (1, 'polytheist')
+elements : ['curse', 'nature', 'light']
+weapons : Magenta Longbow of nature
+opponents : [<__main__.AnimalGod object at 0x00F8FAD0>]
+opponents_titles : ['God of kangaroos']
+allies : []
+allies_titles : []
+factions : 2
+symbol : 
+champions : []
+rituals : []
+animal : elephant
+
+title : ['God of hippopotamuses', 'The Great Hippopotamus God', 'Lord of hippopotamuses', 'The Great Hippopotamus Lord', 'The One who governs over hippopotamuses', 'The One who presides over hippopotamuses']
+gender : ('female', 1)
+power_level : (5, 'quite strong')
+disappeared : False
+cruelty : (1, 'quite kind')
+following : (1, 'quite small')
+interference : (2, 'rarely')
+favourite_color : Turquoise
+belief : (1, 'polytheist')
+elements : ['poison']
+weapons : Turquoise Daggers of poison
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : hippopotamus
+
+title : ['God of horses', 'The Great Horse God', 'Lord of horses', 'The Great Horse Lord', 'The One who governs over horses', 'The One who presides over horses']
+gender : ('genderless', 2)
+power_level : (4, 'strong')
+disappeared : False
+cruelty : (6, 'very cruel')
+following : (4, 'large')
+interference : (1, 'quite rarely')
+favourite_color : Silver
+belief : (0, 'monotheist')
+elements : ['curse', 'earth']
+weapons : Silver Longbow of earth
+opponents : []
+opponents_titles : []
+allies : [<__main__.AnimalGod object at 0x00F8FAD0>]
+allies_titles : ['God of kangaroos']
+factions : 1
+symbol : 
+champions : []
+rituals : []
+animal : horse
+
+title : ['God of giraffes', 'The Great Giraffe God', 'Lord of giraffes', 'The Great Giraffe Lord', 'The One who governs over giraffes', 'The One who presides over giraffes']
+gender : ('genderless', 2)
+power_level : (6, 'very strong')
+disappeared : True
+cruelty : (6, 'very cruel')
+following : (1, 'quite small')
+interference : (1, 'quite rarely')
+favourite_color : Teal
+belief : (1, 'polytheist')
+elements : ['poison', 'darkness', 'earth']
+weapons : Teal Caltrops of poison
+opponents : []
+opponents_titles : []
+allies : []
+allies_titles : []
+factions : 
+symbol : 
+champions : []
+rituals : []
+animal : giraffe

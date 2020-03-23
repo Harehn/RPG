@@ -1,0 +1,120 @@
+[Epic Orange Batons of light]
+A Epic Batons. It has the element of  light. It can deal and mitigate elemental damage of light. It also contains a blessing
+[quite strong blessing of shadow]
+Given by shadow
+Decreases the damage gained from shadow
+
+[Legendary Maroon Halberd of water]
+A Legendary Halberd. It emits the faint aura of the power of  water. It can deal and mitigate elemental damage of water. It also contains a blessing
+[quite strong blessing of ice]
+Given by ice
+Decreases the damage gained from ice
+
+[Mythic Maroon Flail of poison]
+A Mythic Flail. It is imbued with the element of  poison. It can deal and mitigate elemental damage of poison. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+Increases the attack power of water
+
+[Divine Green Batons of lightning]
+A Divine Batons. It emits the faint aura of the power of  lightning. It can deal and mitigate elemental damage of lightning. It also contains a blessing
+[quite strong blessing of darkness]
+Given by darkness
+Makes your scent more favourable to spirits of darkness
+
+[Legendary Silver Sword of fire]
+A Legendary Sword. It is imbued with fire. It can deal and mitigate elemental damage of fire. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+Allows you to use some mana to create a sword of water
+
+[Divine Navy Crossbow of psychic]
+A Divine Crossbow. It has psychic. It can deal and mitigate elemental damage of psychic. It also contains a blessing
+[quite strong blessing of darkness]
+Given by darkness
+Occasionally leads you to sources of power of darkness
+
+[Broken Maroon Longsword of darkness]
+A Broken Longsword. It is enchanted with the element of  darkness. It can deal and mitigate elemental damage of darkness. It also contains a blessing
+[quite strong blessing of wind]
+Given by wind
+Makes your scent more favourable to spirits of wind
+
+[Divine Maroon Caltrops of curse]
+A Divine Caltrops. It is imbued with the element of  curse. It can deal and mitigate elemental damage of curse. It also contains a blessing
+[quite strong blessing of lightning]
+Given by lightning
+Grants you an aura of lightning
+
+[Common Purple Falchion Sword of shadow]
+A Common Falchion Sword. One can sense in it the aura of shadow. It can deal and mitigate elemental damage of shadow. It also contains a blessing
+[quite strong blessing of blood]
+Given by blood
+Grants you an aura of blood
+
+[Broken Red Longsword of nature]
+A Broken Longsword. It has inside of it the element of  nature. It can deal and mitigate elemental damage of nature. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+You can now cast fasteri=10 spells of water
+
+[Broken Cyan Batons of lightning]
+A Broken Batons. It emits the faint aura of the element of  lightning. It can deal and mitigate elemental damage of lightning. It also contains a blessing
+[quite strong blessing of wind]
+Given by wind
+Decreases the damage gained from wind
+
+[Mythic Magenta Spear of water]
+A Mythic Spear. It is enchanted with the power of  water. It can deal and mitigate elemental damage of water. It also contains a blessing
+[quite strong blessing of wind]
+Given by wind
+You can now cast fasteri=10 spells of wind
+
+[Legendary Yellow Sword of fire]
+A Legendary Sword. It contains fire. It can deal and mitigate elemental damage of fire. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+You can now cast fasteri=10 spells of water
+
+[Rare Black Halberd of ice]
+A Rare Halberd. It has inside of it ice. It can deal and mitigate elemental damage of ice. It also contains a blessing
+[quite strong blessing of wind]
+Given by wind
+Makes your scent more favourable to spirits of wind
+
+[Epic Gray Batons of shadow]
+A Epic Batons. It has been bestowed the aura of the element of  shadow. It can deal and mitigate elemental damage of shadow. It also contains a blessing
+[quite strong blessing of blood]
+Given by blood
+You can now cast fasteri=10 spells of blood
+
+[Common Orange Scimitar of shadow]
+A Common Scimitar. It has the power of  shadow. It can deal and mitigate elemental damage of shadow. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+You can use this blessing to increase another blessing of water
+
+[Epic Pink Lance of ice]
+A Epic Lance. It is imbued with the power of  ice. It can deal and mitigate elemental damage of ice. It also contains a blessing
+[quite strong blessing of poison]
+Given by poison
+Allows you to use some mana to send an arrow of poison
+
+[Broken Orange Daggers of ice]
+A Broken Daggers. It emits the faint aura of the element of  ice. It can deal and mitigate elemental damage of ice. It also contains a blessing
+[quite strong blessing of water]
+Given by water
+Allows you to use some mana to send a ball of water
+
+[Mythic Tan MorningStar of lightning]
+A Mythic MorningStar. It has been bestowed the aura of lightning. It can deal and mitigate elemental damage of lightning. It also contains a blessing
+[quite strong blessing of darkness]
+Given by darkness
+Allows you to use some mana to create a sword of darkness
+
+[Uncommon Teal Halberd of curse]
+A Uncommon Halberd. It is imbued with curse. It can deal and mitigate elemental damage of curse. It also contains a blessing
+[quite strong blessing of darkness]
+Given by darkness
+You can now cast fasteri=10 spells of darkness
+
